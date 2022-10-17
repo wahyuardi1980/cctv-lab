@@ -58,7 +58,7 @@ if (!isset($_SESSION['session_username'])) {
   <form class="container" style="margin-bottom: 40px; margin-top: 40px;">
     <div class="form-group">
       <label for="kategori_id">Kategori</label>
-      <input type="text" class="form-control" id="kategori_id" placeholder="Kategori">
+      <input type="text" class="form-control" id="kategori_id" placeholder="Kategori (1-6)">
     </div>
     <div class="form-group">
       <label for="nama">Nama Produk</label>
