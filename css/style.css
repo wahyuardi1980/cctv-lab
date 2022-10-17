@@ -1,0 +1,462 @@
+body {
+	font-family: viga;
+}
+
+/*Logo Top */
+.logo_top {
+	text-align: center;
+}
+/*Akhir Logo Top*/
+/*-------- Menu bar home for android -------*/
+/*logo cctv lab dekstop */
+.content .logo_top img {
+	display: block;
+	margin: auto;
+	width: 120px;
+	height: 120px;
+}
+
+.content ul {
+	list-style: none;
+	/*float: left;*/
+	margin-right: 25px;
+	padding-left: 65px;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.content ul li {
+	display: inline;
+	margin: 7px;
+	margin-right: 15px;
+}
+
+.content ul li a {
+	color: black;
+	font-weight: bold;
+  text-decoration: none;
+}
+
+
+/*Brand*/
+#barang h2 {
+	font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*akhir brand*/
+
+/* contact-us dekstop */
+#contact {
+  margin-top : 50px;
+  margin-bottom: 50px;
+}
+/* akhir contact-us */
+
+/*harga paket*/
+.card-body {
+	background-color: #2d45d8;
+}
+.card-title {
+	color: white;
+}
+/* akhir harga paket */
+
+/*Info panel for android */
+.info-panel { 
+	/* margin-top: 100px; */
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+	margin-top: 50px;
+	background-color: white;
+	padding-top: 25px;
+}
+
+.info-panel img {
+	width: 80px;
+	height: 80px;
+}
+
+/*Akhir imfo panel for android*/
+
+.selengkapnya {
+	text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*Galery For Dekstop*/
+#galery h2 {
+	font-size: 30px;
+	margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#galery {
+	margin-bottom: 50px;
+}
+/*AKHIR Galery For dekstop*/
+
+/* footer android*/
+footer {
+  background-color: #2d2d27;
+  padding-bottom: 10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 50px;
+  line-height: 25px;
+  color: white;
+  margin-top: 200px;
+}
+
+h3 {
+  font-family: viga;
+  font-size: 20px;
+}
+
+.info h3 {
+  margin-top: 30px;
+}
+
+.info ul {
+  list-style: circle;
+  line-height: 45px;
+}
+
+.info ul li {
+  font-size: 15px;
+}
+
+.info ul li a {
+  color: #A9A9A9;
+}
+
+.priv h3 {
+  margin-top: 30px;
+}
+
+.priv ul {
+  list-style: circle;
+  line-height: 45px;
+}
+
+.priv ul li {
+  font-size: 15px;
+}
+
+.priv ul li a {
+  color: #A9A9A9;
+}
+
+.alamat h3 {
+  margin-top: 30px;
+}
+
+.alamat p {
+  font-size: 15px;
+  /*color: #A9A9A9;*/
+  color: white;
+}
+
+.maps {
+  margin-top: 20px;
+}
+
+.maps h3 {
+  margin-top: 30px;
+}
+
+.maps p {
+  color: white;
+  font-size: 15px;
+}
+
+.maps p span {
+  color: green;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #A9A9A9;
+  font-size: 10px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+/* akhir footer android */
+
+/*===utility=== for android*/
+
+.garis {
+  border-color: #fdc115;
+  border-width: 5.5px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/*======================================================================================*/
+@media (min-width: 992px) {
+/*======================================================================================*/
+	body {
+	font-family: viga;
+}
+
+/*navbar*/
+/*BANNER*/
+.banner_top img {
+	display: block;
+	margin-right: 25px;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin: auto;
+}
+/*AKHIR BANNER*/
+
+/*logo cctv lab dekstop */
+.content .logo_top img {
+	display: block;
+	margin: auto;
+	width: 20%;
+	height: 40%;
+}
+
+
+.content ul {
+	list-style: none;
+	float: center;
+	text-align: center;
+}
+
+.content ul li {
+	display: inline;
+	margin: 15px;
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.content ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 10px;
+	border-right: 1px solid rgba(255, 255, 255, 0.125);
+	color: black;
+	font-weight: bold;
+}
+
+.content ul li a:hover, .content ul li active {
+	background: -webkit-linear-gradient(top, #2b90d2, #1382cb);
+	background: -moz-linear-gradient(top, #2b90d2, #1382cb);
+	background: -o-linear-gradient(top, #2b90d2, #1382cb);
+	background: -ms-linear-gradient(top, #2b90d2, #1382cb);
+	background: linear-gradient(top, #2b90d2, #1382cb);
+}
+/*AKHIR NAVBAR TENGAH*/
+
+
+.belakang {
+	background-color: #1d73be;
+}
+
+
+.card {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/*harga paket dekstop*/
+.card-body {
+	background-color: #2d45d8;
+}
+.card-title {
+	color: white;
+}
+/* akhir harga paket */
+
+/*Brand dekstop*/
+#barang h2 {
+	font-size: 45px;
+  margin-top: 100px;
+}
+/*akhir brand*/
+
+/* contact-us dekstop */
+#contact {
+  margin-top : 100px;
+  margin-bottom: 200px;
+}
+/* akhir contact-us */
+
+/*Info panel for dekstop*/
+.info-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+	margin-top: 50px;
+	background-color: white;
+	padding-top: 25px;
+}
+
+.info-panel img {
+	width: 100px;
+	height: 100px;
+}
+/*Akhir info panel for dekstop*/
+
+.selengkapnya {
+	text-align: center;
+  padding-bottom: 100px;
+  margin-top: 70px;
+}
+
+/*Galery For Dekstop*/
+#galery h2 {
+	font-size: 45px;
+	margin-top: 145px;
+  margin-bottom: 50px;
+}
+
+#galery {
+	margin-bottom: 200px;
+}
+/*AKHIR Galery For dekstop*/
+
+
+
+/*Footer dekstop*/
+footer {
+    background-color: #2d2d27;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 50px;
+    line-height: 25px;
+    color: white;
+}
+
+h3 {
+	font-family: viga;
+    font-size: 20px;
+}
+
+.info {
+    color: white;
+}
+
+.info span {
+    color: green;
+}
+
+.info ul {
+    list-style: circle;
+    line-height: 45px;
+}
+
+.info ul li {
+    font-size: 15px;
+}
+
+.info ul li a {
+    color: #A9A9A9;
+}
+
+.priv {
+    color: white;
+}
+
+.priv span {
+    color: green;
+}
+
+.priv ul {
+    list-style: circle;
+    line-height: 45px;
+}
+
+.priv ul li {
+    font-size: 15px;
+}
+
+.priv ul li a {
+    color: #A9A9A9;
+}
+
+.alamat {
+    color: white;
+}
+
+.alamat span {
+    color: green;
+}
+
+.alamat p {
+    font-size: 15px;
+    /*color: #A9A9A9;*/
+    color: white;
+}
+
+.maps {
+    margin-top: -0.1px;
+    color: white;
+}
+
+.maps span {
+    color: green;
+}
+
+.maps p {
+    font-size: 15px;
+}
+
+.maps p span {}
+
+.footer-bottom {
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.logo_top img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+}
+
+/* utility dekstop */
+.garis {
+  border-color: #fdc115;
+  border-width: 5.2px;
+  margin-left: 520px;
+  margin-right: 520px;
+}
+
+.portofolio {
+  margin-bottom: 80px;
+  background-color: #eee;
+  padding-top: 10px;
+  padding-bottom: 90px;
+ 
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
